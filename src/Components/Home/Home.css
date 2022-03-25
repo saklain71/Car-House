@@ -1,4 +1,13 @@
+.car-title{
+    text-align: center;
+}
+.cars-home{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
 .car-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 20px;
+    gap: 20px;
 }
