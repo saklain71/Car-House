@@ -20,12 +20,14 @@ const Home = () => {
            {
                 cars.map(car=> <Cars
                 car={car}
+                key={car.id}
                 handlerAddToCart={handlerAddToCart}
                 ></Cars>)
             }
            </div>
            <div className='cars-selector'>
-               <SelectedCars 
+               <SelectedCars
+               info={selectCar} 
                ></SelectedCars>
            </div>
            

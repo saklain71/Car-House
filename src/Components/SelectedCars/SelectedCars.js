@@ -1,15 +1,19 @@
 import React from 'react';
 import './SelectedCars.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const SelectedCars = (props) => {
-    const {handlerAddToCart} = props;
+    const {info}= props;
+    
+    console.log(info);
     return (
         <div>
-            <h3>Selected Curs</h3>
-            <div>
-                <img src="" alt="" />
-                <p></p>
-                <button></button>
+            <h3>Selected Cars</h3>
+            <div className='select-conainer'>
+                <img src={info.img} alt="" />
+                <p> {info.name}</p>
+                <button style={{backgroundColor:'white',border:'white'}}> <FontAwesomeIcon icon={faTrash} /></button>
             </div>
 
         </div>
