@@ -43,8 +43,10 @@ const chooseAgain =(car)=>{
            </div>
            
            <div className='selected-cars'>
-           <h3>Selected Cars</h3>
+          
            <div className='cars-selector'>
+           <h3>Selected Cars</h3>
+
            {
                    selectCar.map(newCar=> <SelectedCars
                    info={newCar}

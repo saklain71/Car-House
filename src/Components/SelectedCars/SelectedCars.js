@@ -10,12 +10,11 @@ console.log(info);
     return (
         <div className='selected-head'>
             
-            <div className='select-conainer'>
+            <div className='select-container'>
                 <img src={info.img} alt="" />
                 <p> {info.name}</p>
-                <button style={{backgroundColor:'white',border:'white'}}> <FontAwesomeIcon icon={faTrash} /></button>
+                <button  style={{backgroundColor:'white',border:'white'}}> <FontAwesomeIcon icon={faTrash} /></button>
             </div>
-            
 
         </div>
     );

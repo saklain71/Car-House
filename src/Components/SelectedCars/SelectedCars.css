@@ -1,19 +1,17 @@
-.selected-head{
 
-}
 .cars-selector{
-
      padding: 0 20px;
 
 }
-.select-conainer {
+.select-container {
     display: flex;
     gap: 10px;
 
 }
-.select-conainer img{
+.select-container img{
     width: 50px;
     height: 50px;
     border-radius: 30px;
     background-color: white;
 }
+

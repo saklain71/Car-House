@@ -13,6 +13,7 @@
 }
 .selected-cars{
     padding: 0 10px 0 10px;
+    
 }
 .cars-selector{
     position: sticky;
@@ -20,22 +21,22 @@
 }
 .selected-btn{
     width: 100%;
-    height: 30px;
+    height: 40px;
     border-radius: 20px;
-    background-color: rgb(115, 154, 141);
+    background-color: black;
     margin-top: 10px;
+    color: white;
 }
 .selected-btn:hover{
-    background-color: rgb(245, 230, 220);
+    background-color: white;
+    background-color: black;
 }
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: rgb(87, 136, 152);
+        overflow-x: hidden;
     }
-    .car-title{
-        margin-left: 30px;
-    }
+    
     .cars-home{
         align-items: center;
         justify-content: center;
@@ -43,10 +44,23 @@
         flex-direction: column-reverse;
      
     }
+    .selected-btn{
+        margin-bottom: 10px;
+    }
     .car-container{
         grid-template-columns: repeat(1 , 1fr);
         justify-content: center;
         align-items: center;
     } 
-    
+    .car-container{
+        padding: 0%;
+        margin: 0%;
+    }
   }
+
+
+  @media only screen and (min-width: 1000px) {
+    .selected-btn {
+      width: 200px;
+    }
+}
