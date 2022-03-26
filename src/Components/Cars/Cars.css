@@ -13,14 +13,12 @@
  border-radius: 10px;
 
 }
-.car-btn-div{
- 
-}
+
 .car-btn{
-    background-color: cadetblue;
+    background-color: rgb(115, 154, 141);
     border-radius: 20px;
    
 } 
 .car-btn:hover{
-    background-color: aquamarine;
+    background-color: rgb(245, 230, 220);
 }

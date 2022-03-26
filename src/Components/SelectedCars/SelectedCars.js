@@ -5,11 +5,11 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const SelectedCars = (props) => {
     const {info}= props;
-    
-    console.log(info);
+
+console.log(info);
     return (
-        <div>
-            <h3>Selected Cars</h3>
+        <div className='selected-head'>
+            
             <div className='select-conainer'>
                 <img src={info.img} alt="" />
                 <p> {info.name}</p>

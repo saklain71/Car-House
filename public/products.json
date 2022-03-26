@@ -7,7 +7,7 @@
   },
   {
     "id": 2,
-    "name": "Mazda sports Car",
+    "name": "Mazda S Car",
     "price": 437,
     "img": "https://i.ibb.co/SBWJLXZ/images.jpg"
   },
@@ -19,7 +19,7 @@
   },
   {
     "id": 4,
-    "name": "Ferrari sport 990",
+    "name": "Royal 870",
     "price": 437,
     "img": "https://i.ibb.co/vB5fKdg/car4.jpg"
   },
@@ -52,6 +52,12 @@
     "name": "Classic Troy",
     "price": 437,
     "img": "https://i.ibb.co/nLgC3wP/car8.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ferrari 990",
+    "price": 437,
+    "img": "https://i.ibb.co/Sc839kq/car10.jpg"
   }
 
 ]

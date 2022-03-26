@@ -12,7 +12,15 @@ const Home = () => {
         .then(data => setCar(data))
     },[]);
     const handlerAddToCart = (car) =>{
-        setSelectCar(car)
+        const newNew = [...selectCar, car]
+        setSelectCar(newNew)
+    }
+    const randomNumber =()=>{
+     let randomNum =  Math.round(Math.random() * 10);
+     if(randomNum === 0){
+        randomNum =  Math.round(Math.random() * 10);
+     }
+     console.log(randomNum);
     }
     return (
         <div className='cars-home'>
@@ -25,10 +33,22 @@ const Home = () => {
                 ></Cars>)
             }
            </div>
+           
            <div className='cars-selector'>
-               <SelectedCars
+           <h3>Selected Cars</h3>
+               {/* <SelectedCars
                info={selectCar} 
-               ></SelectedCars>
+               ></SelectedCars> */}
+               {
+                   selectCar.map(newCar=> <SelectedCars
+                   info={newCar}
+                   ></SelectedCars>)
+               }
+              <div >
+              <button className='selected-btn' onClick={randomNumber}>Choose 1 for you</button>
+               <button className='selected-btn'>Choose again</button>
+              </div>
+            
            </div>
            
         </div>
