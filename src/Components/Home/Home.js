@@ -24,6 +24,11 @@ const Home = () => {
   const randomArray = [random];
   setSelectCar(randomArray)
 }
+const chooseAgain =(car)=>{
+    console.log(car);
+    car = [];
+    setSelectCar(car)
+}
 
     return (
         <div className='cars-home'>
@@ -48,7 +53,7 @@ const Home = () => {
                }
               <div>
               <button className='selected-btn' onClick={()=>RandomItemFromArray(selectCar)}>Choose 1 for you</button>
-               <button className='selected-btn'>Choose again</button>
+               <button className='selected-btn' onClick={()=>chooseAgain(selectCar)}>Choose again</button>
                {
                    
                }
