@@ -25,7 +25,7 @@ const Home = () => {
   setSelectCar(randomArray)
 }
 const chooseAgain =(car)=>{
-    console.log(car);
+  
     car = [];
     setSelectCar(car)
 }

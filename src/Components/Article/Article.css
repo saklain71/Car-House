@@ -1,0 +1,14 @@
+.article-container{
+    display: flex;
+    padding: 30px 20px;
+    justify-content: space-between;
+}
+.article-container p{
+    padding: 0px 10px;
+}
+.article-1{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    
+}

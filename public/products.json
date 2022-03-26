@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Mazda-8",
-    "price": 437,
+    "price": 9900,
     "img": "https://i.ibb.co/YN7WXpj/car2.webp"
   },
   {
     "id": 2,
     "name": "Mazda S Car",
-    "price": 437,
+    "price": 8800,
     "img": "https://i.ibb.co/SBWJLXZ/images.jpg"
   },
   {
     "id": 3,
     "name": "Toyota Classic",
-    "price": 437,
+    "price": 9000,
     "img": "https://i.ibb.co/PtNHDbr/car3.jpg"
   },
   {
     "id": 4,
     "name": "Royal 870",
-    "price": 437,
+    "price": 8000,
     "img": "https://i.ibb.co/vB5fKdg/car4.jpg"
   },
   {
     "id": 5,
     "name": "Blac Ninza",
-    "price": 437,
+    "price": 8500,
     "img": "https://i.ibb.co/Y7Kg96R/car5.jpg"
   },
   {
     "id": 6,
     "name": "Audi 780",
-    "price": 437,
+    "price": 9200,
     "img": "https://i.ibb.co/cQ8bgvb/car6.jpg"
   },
   {
     "id": 7,
     "name": "MBW-5 series",
-    "price": 437,
+    "price": 9500,
     "img": "https://i.ibb.co/X3HzsCk/car1.jpg"
   },
   {
     "id": 8,
     "name": "Corolla Hybrid",
-    "price": 437,
+    "price": 90000,
     "img": "https://i.ibb.co/8jRwynG/car7.jpg"
   },
   {
     "id": 9,
     "name": "Classic Troy",
-    "price": 437,
+    "price": 8000,
     "img": "https://i.ibb.co/nLgC3wP/car8.jpg"
   },
   {
     "id": 10,
     "name": "Ferrari 990",
-    "price": 437,
+    "price": 10000,
     "img": "https://i.ibb.co/Sc839kq/car10.jpg"
   }
 
