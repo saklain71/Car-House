@@ -12,3 +12,17 @@
     color: burlywood;
     padding: 2%;
 }
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+   .header{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       gap: 30px;
+       margin-bottom: 10px;
+   }
+
+  }
