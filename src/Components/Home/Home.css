@@ -11,6 +11,13 @@
     padding-left: 20px;
     gap: 20px;
 }
+.selected-cars{
+    padding: 0 10px 0 10px;
+}
+.cars-selector{
+    position: sticky;
+    top: 0%;
+}
 .selected-btn{
     width: 100%;
     height: 30px;
@@ -21,3 +28,4 @@
 .selected-btn:hover{
     background-color: rgb(245, 230, 220);
 }
+

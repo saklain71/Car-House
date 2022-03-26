@@ -6,6 +6,7 @@ import './Home.css'
 const Home = () => {
     const [cars, setCar] = useState([]);
     const [selectCar, setSelectCar] = useState([])
+    
     useEffect(()=>{
         fetch('products.json')
         .then(res => res.json())
@@ -15,13 +16,15 @@ const Home = () => {
         const newNew = [...selectCar, car]
         setSelectCar(newNew)
     }
-    const randomNumber =()=>{
-     let randomNum =  Math.round(Math.random() * 10);
-     if(randomNum === 0){
-        randomNum =  Math.round(Math.random() * 10);
-     }
-     console.log(randomNum);
-    }
+    
+  const RandomItemFromArray = car =>{
+  
+  const random = car[Math.floor(Math.random()*car.length)];
+
+  const randomArray = [random];
+  setSelectCar(randomArray)
+}
+
     return (
         <div className='cars-home'>
            <div className='car-container'>
@@ -34,20 +37,26 @@ const Home = () => {
             }
            </div>
            
-           <div className='cars-selector'>
+           <div className='selected-cars'>
            <h3>Selected Cars</h3>
-               {/* <SelectedCars
-               info={selectCar} 
-               ></SelectedCars> */}
-               {
+           <div className='cars-selector'>
+           {
                    selectCar.map(newCar=> <SelectedCars
                    info={newCar}
+                   key={newCar.id}
                    ></SelectedCars>)
                }
-              <div >
-              <button className='selected-btn' onClick={randomNumber}>Choose 1 for you</button>
+              <div>
+              <button className='selected-btn' onClick={()=>RandomItemFromArray(selectCar)}>Choose 1 for you</button>
                <button className='selected-btn'>Choose again</button>
+               {
+                   
+               }
+
               </div>
+           </div>
+              
+           
             
            </div>
            

@@ -14,8 +14,6 @@ const Cars = ({car, handlerAddToCart}) => {
             <p>Car price: ${price}</p>
             <div className='car-btn-div' >
             <button className='car-btn' onClick={()=>handlerAddToCart(car)} > Add to Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon> </button>
-            
-           
             </div>
         </div>
         

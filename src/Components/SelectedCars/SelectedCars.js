@@ -15,6 +15,7 @@ console.log(info);
                 <p> {info.name}</p>
                 <button style={{backgroundColor:'white',border:'white'}}> <FontAwesomeIcon icon={faTrash} /></button>
             </div>
+            
 
         </div>
     );
